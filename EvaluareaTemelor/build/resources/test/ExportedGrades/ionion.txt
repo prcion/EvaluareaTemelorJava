@@ -1,0 +1,5 @@
+Tema: 1
+Nota: 9.0
+Predata in saptamana: 4
+Deadline: 7
+Feedback: asda

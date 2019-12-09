@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReportsController">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="60.0" prefHeight="350.0" prefWidth="700.0" style="-fx-background-color: white;">
+         <children>
+            <Button fx:id="Raport1" layoutX="14.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #6d4c41; -fx-border-color: black;" text="Notele studentilor" textFill="WHITE" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="552.0" />
+            <TableView fx:id="table" layoutX="12.0" layoutY="15.0" prefHeight="239.0" prefWidth="680.0" style="-fx-border-color: black;" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+               <columns>
+                  <TableColumn fx:id="Nume" prefWidth="136.0" style="-fx-background-color: #8d6e63; -fx-border-color: black;" text="Nume">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="nume" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="Prenume" minWidth="0.0" prefWidth="184.0" style="-fx-background-color: #8d6e63; -fx-border-color: black;" text="Prenume">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="prenume" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="Grupa" prefWidth="203.0" style="-fx-background-color: #8d6e63; -fx-border-color: black;" text="Grupa">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="grupa" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="Nota" minWidth="0.0" prefWidth="152.0" style="-fx-background-color: #8d6e63; -fx-border-color: black;" text="Nota">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="nota" />
+                     </cellValueFactory>
+                  </TableColumn>
+               </columns>
+            </TableView>
+            <Button fx:id="Raport2" layoutX="180.0" layoutY="298.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="126.0" style="-fx-background-color: #6d4c41; -fx-border-color: black;" text="Tema cea mai grea" textFill="WHITE" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="394.0" />
+            <Button fx:id="Raport3" layoutX="342.0" layoutY="298.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="126.0" style="-fx-background-color: #6d4c41; -fx-border-color: black;" text="Studentii admisi" textFill="WHITE" />
+            <Button fx:id="Raport4" layoutX="481.0" layoutY="298.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="192.0" style="-fx-background-color: #6d4c41; -fx-border-color: black;" text="Studentii care au predat la timp" textFill="WHITE" AnchorPane.rightAnchor="10.0" />
+            <TextField fx:id="TemaTextField" layoutX="10.0" layoutY="262.0" style="-fx-border-color: #40241a;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-33.0" layoutY="4.0" prefHeight="52.0" prefWidth="705.0" style="-fx-background-color: #8d6e63;" AnchorPane.bottomAnchor="350.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="310.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rapoarte">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Button fx:id="studentButtonChange" layoutX="25.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #6d4c41; -fx-border-color: black;" text="Student" textFill="WHITE" />
+            <Button fx:id="homeworkButtonChange" layoutX="127.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #6d4c41; -fx-border-color: black;" text="Tema" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

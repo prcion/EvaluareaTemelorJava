@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+  <grade id="45.5">
+    <student>45 455445 46554 4544 454 kllk</student>
+    <homework>5 Tema5 9 12</homework>
+    <week>11</week>
+    <professor>kllk</professor>
+    <gradeOne>10.0</gradeOne>
+    <feedback>dsadsa</feedback>
+  </grade>
+  <grade id="1.1">
+    <student>1 Ionn ion 12 sa das</student>
+    <homework>1 Tema1 1 3</homework>
+    <week>10</week>
+    <professor>das</professor>
+    <gradeOne>1.0</gradeOne>
+    <feedback/>
+  </grade>
+  <grade id="1.2">
+    <student>1 Ionn ion 12 sa das</student>
+    <homework>2 Tema2 3 6</homework>
+    <week>10</week>
+    <professor>das</professor>
+    <gradeOne>1.0</gradeOne>
+    <feedback/>
+  </grade>
+  <grade id="1.3">
+    <student>1 Ionn ion 12 sa das</student>
+    <homework>3 Tema3 6 8</homework>
+    <week>10</week>
+    <professor>das</professor>
+    <gradeOne>1.0</gradeOne>
+    <feedback/>
+  </grade>
+  <grade id="1.4">
+    <student>1 Ionn ion 12 sa das</student>
+    <homework>4 Tema4 8 9</homework>
+    <week>10</week>
+    <professor>das</professor>
+    <gradeOne>1.0</gradeOne>
+    <feedback>NOTA A FOST DIMINUATA CU -1 PUNCTE DATORITA INTARZIERILOR</feedback>
+  </grade>
+  <grade id="19.5">
+    <student>19 Ion2 Ion1 226 dasdas@mail.ru Vladut</student>
+    <homework>5 Tema5 9 12</homework>
+    <week>11</week>
+    <professor>Vladut</professor>
+    <gradeOne>10.0</gradeOne>
+    <feedback>lmn</feedback>
+  </grade>
+  <grade id="1.5">
+    <student>1 Ionn ion 12 sa das</student>
+    <homework>5 Tema5 9 12</homework>
+    <week>11</week>
+    <professor>das</professor>
+    <gradeOne>10.0</gradeOne>
+    <feedback>kllj</feedback>
+  </grade>
+  <grade id="19.4">
+    <student>19 Ion2 Ion1 226 dasdas@mail.ru Vladut</student>
+    <homework>4 Tema4 8 9</homework>
+    <week>11</week>
+    <professor>Vladut</professor>
+    <gradeOne>8.0</gradeOne>
+    <feedback>NOTA A FOST DIMINUATA CU -2 PUNCTE DATORITA INTARZIERILOR</feedback>
+  </grade>
+</class>

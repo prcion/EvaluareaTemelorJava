@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+  <homework id="1">
+    <description>Tema1</description>
+    <startWeek>1</startWeek>
+    <deadlineWeek>3</deadlineWeek>
+  </homework>
+  <homework id="2">
+    <description>Tema2</description>
+    <startWeek>3</startWeek>
+    <deadlineWeek>6</deadlineWeek>
+  </homework>
+  <homework id="3">
+    <description>Tema3</description>
+    <startWeek>6</startWeek>
+    <deadlineWeek>8</deadlineWeek>
+  </homework>
+  <homework id="4">
+    <description>Tema4</description>
+    <startWeek>8</startWeek>
+    <deadlineWeek>9</deadlineWeek>
+  </homework>
+  <homework id="5">
+    <description>Tema5</description>
+    <startWeek>9</startWeek>
+    <deadlineWeek>12</deadlineWeek>
+  </homework>
+</class>

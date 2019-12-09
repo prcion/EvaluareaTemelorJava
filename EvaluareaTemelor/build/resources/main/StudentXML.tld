@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+  <student id="1">
+    <firstname>Ionn</firstname>
+    <lastname>ion</lastname>
+    <group>12</group>
+    <email>sa</email>
+    <professor>das</professor>
+  </student>
+  <student id="19">
+    <firstname>Ion2</firstname>
+    <lastname>Ion1</lastname>
+    <group>226</group>
+    <email>dasdas@mail.ru</email>
+    <professor>Vladut</professor>
+  </student>
+  <student id="45">
+    <firstname>455445</firstname>
+    <lastname>46554</lastname>
+    <group>4544</group>
+    <email>454</email>
+    <professor>kllk</professor>
+  </student>
+</class>
